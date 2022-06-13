@@ -39,8 +39,10 @@ localhost:8080
 ```
 
 Como maneira de facilitar, o app está configurado para utilização do MySQL com as credenciais
+```
 root
 sem password
+```
 
 ## Utilização
 
