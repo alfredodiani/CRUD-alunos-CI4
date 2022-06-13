@@ -21,6 +21,11 @@ extension=intl
 Baixar os arquivos do repositório colocar em:
 /xamp/htdocs/alunosci4
 
+Eenomeieo arquivo 'env' para
+```
+.env
+```
+
 Utilizando o phpMyAdmin rode o script createbd.sql contido na pasta raiz do projeto para criar o banco de dados, a tabela e inserir alguns registros de exemplo.
 
 Abra o terminal na pasta /xamp/htdocs/alunosci4/ e rode o comando:
