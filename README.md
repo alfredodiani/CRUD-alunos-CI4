@@ -21,7 +21,7 @@ extension=intl
 Baixar os arquivos do repositório colocar em:
 /xamp/htdocs/alunosci4
 
-Eenomeieo arquivo 'env' para
+Renomeieo arquivo 'env' para
 ```
 .env
 ```
