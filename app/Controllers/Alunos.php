@@ -49,7 +49,7 @@ class Alunos extends BaseController
         if ($imagem->isValid())  {                                              //trata e salva a imagem
             $nomeImagem = $imagem->getRandomName();
             $imagem->move('imagens/', $nomeImagem);
-            $foto->withFile('imagens/'.$nomeImagem);
+            $foto->withFile('imagens/'.$nomeImagem);                            //as 3 proximas linhas cortam a imagem centralizada em 200x200 pixels
             $foto->fit(200, 200, 'center');
             $foto->save('imagens/'.$nomeImagem);
         } else {
@@ -91,12 +91,12 @@ class Alunos extends BaseController
     
     public function update(){
         $id = $this->request->getPost('id');
-        $imagem = $this->request->getFile('fotopath');                          //trata a imagem
-        if ($imagem->isValid() && ! $imagem->hasMoved()) {
+        $imagem = $this->request->getFile('fotopath');                          
+        if ($imagem->isValid() && ! $imagem->hasMoved()) {                      //trata a imagem
             
             $nomeImagem = $imagem->getRandomName();
             $imagem->move('imagens/', $nomeImagem);
-            $foto = \Config\Services::image();
+            $foto = \Config\Services::image();                                  //as proximas linhas cortam a imagem centralizada em 200x200 pixels
             $foto->withFile('imagens/'.$nomeImagem);
             $foto->fit(200, 200, 'center');
             $foto->save('imagens/'.$nomeImagem);
@@ -109,16 +109,16 @@ class Alunos extends BaseController
                 'endereco' => $this->request->getPost('endereco'),
                 'fotopath'     => $nomeImagem
             ];
-            $oldimage = $this->alunosModel->find($id)['fotopath'];
+            $oldimage = $this->alunosModel->find($id)['fotopath'];              //guarda o nome da foto antiga para deletar posteriormente
         } else {
             $data = [
                 'nome'     => $this->request->getPost('nome'),
                 'endereco' => $this->request->getPost('endereco'),
             ];
         }
-        if( $this->alunosModel->update($id, $data)){                            //tenta fazer o update
-            if ($nomeImagem != NULL){
-            unlink('imagens/'.$oldimage);                                       //exclui a imagem antiga
+        if( $this->alunosModel->update($id, $data)){                            //tenta fazer o update e mostra msg de sucesso ou erro
+            if ($nomeImagem != NULL){                                           //exclui a imagem antiga
+            unlink('imagens/'.$oldimage);                                      
             }
             return view('msgok', [
                 'msg' => 'Alteração efetuada!',
