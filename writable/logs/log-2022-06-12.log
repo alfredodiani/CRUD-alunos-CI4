@@ -1,0 +1,245 @@
+CRITICAL - 2022-06-12 03:18:52 --> Class "app\Controllers\BaseController" not found
+in APPPATH\Controllers\Home.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(284): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-12 03:19:14 --> Class "app\Controllers\BaseController" not found
+in APPPATH\Controllers\Home.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(284): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-12 03:19:17 --> Class "app\Controllers\BaseController" not found
+in APPPATH\Controllers\Home.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(284): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-12 03:20:04 --> Class "app\Controllers\BaseController" not found
+in APPPATH\Controllers\Home.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(284): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-12 03:21:57 --> Undefined variable $alunos
+in APPPATH\Views\alunos.php on line 15.
+ 1 APPPATH\Views\alunos.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $alunos', 'APPPATH\\Views\\alunos.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\alunos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('alunos', [], true)
+ 5 APPPATH\Controllers\Home.php(11): view('alunos')
+ 6 SYSTEMPATH\CodeIgniter.php(898): app\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-12 03:22:39 --> Undefined variable $alunos
+in APPPATH\Views\alunos.php on line 15.
+ 1 APPPATH\Views\alunos.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $alunos', 'APPPATH\\Views\\alunos.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\alunos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('alunos', [], true)
+ 5 APPPATH\Controllers\Home.php(11): view('alunos')
+ 6 SYSTEMPATH\CodeIgniter.php(898): app\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-12 03:22:41 --> Undefined variable $alunos
+in APPPATH\Views\alunos.php on line 15.
+ 1 APPPATH\Views\alunos.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $alunos', 'APPPATH\\Views\\alunos.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\alunos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('alunos', [], true)
+ 5 APPPATH\Controllers\Home.php(11): view('alunos')
+ 6 SYSTEMPATH\CodeIgniter.php(898): app\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-12 03:22:56 --> Undefined variable $alunos
+in APPPATH\Views\alunos.php on line 15.
+ 1 APPPATH\Views\alunos.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $alunos', 'APPPATH\\Views\\alunos.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\alunos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('alunos', [], true)
+ 5 APPPATH\Controllers\Home.php(11): view('alunos')
+ 6 SYSTEMPATH\CodeIgniter.php(898): app\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-12 03:24:06 --> Undefined variable $alunos
+in APPPATH\Views\alunos.php on line 15.
+ 1 APPPATH\Views\alunos.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $alunos', 'APPPATH\\Views\\alunos.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\alunos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('alunos', [], true)
+ 5 APPPATH\Controllers\Home.php(11): view('alunos')
+ 6 SYSTEMPATH\CodeIgniter.php(898): app\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(app\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-12 03:27:48 --> Class "app\Controllers\BaseController" not found
+in APPPATH\Controllers\Home.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(284): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(848): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 18:24:55 --> Undefined property: App\Controllers\Alunos::$alunoModel
+in APPPATH\Controllers\Alunos.php on line 40.
+ 1 APPPATH\Controllers\Alunos.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Alunos::$alunoModel', 'APPPATH\\Controllers\\Alunos.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Alunos->delete('7')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 18:27:58 --> Undefined property: App\Controllers\Alunos::$alunoModel
+in APPPATH\Controllers\Alunos.php on line 40.
+ 1 APPPATH\Controllers\Alunos.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Alunos::$alunoModel', 'APPPATH\\Controllers\\Alunos.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Alunos->delete('7')
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 18:28:24 --> unlink(imagens/..imagens8.jpg): No such file or directory
+in APPPATH\Controllers\Alunos.php on line 44.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(imagens/..imagens8.jpg): No such file or directory', 'APPPATH\\Controllers\\Alunos.php', 44)
+ 2 APPPATH\Controllers\Alunos.php(44): unlink('imagens/..imagens8.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Alunos->delete('7')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 18:52:40 --> unlink(imagens/..imagens8.jpg): No such file or directory
+in APPPATH\Controllers\Alunos.php on line 44.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(imagens/..imagens8.jpg): No such file or directory', 'APPPATH\\Controllers\\Alunos.php', 44)
+ 2 APPPATH\Controllers\Alunos.php(44): unlink('imagens/..imagens8.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Alunos->delete('9')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 21:54:34 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Alunos.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Alunos->store()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 21:57:16 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Alunos.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Alunos->store()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 21:58:37 --> Undefined property: App\Controllers\Alunos::$alunoModel
+in APPPATH\Controllers\Alunos.php on line 77.
+ 1 APPPATH\Controllers\Alunos.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Alunos::$alunoModel', 'APPPATH\\Controllers\\Alunos.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Alunos->store()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-12 21:59:55 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-06-12 21:59:55 --> Array to string conversion
+in APPPATH\Views\msg.php on line 4.
+ 1 APPPATH\Views\msg.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\msg.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\msg.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('msg', [], true)
+ 5 APPPATH\Controllers\Alunos.php(86): view('msg', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Alunos->store()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-12 22:02:27 --> Unknown column 'created_at' in 'field list'
+ERROR - 2022-06-12 22:05:59 --> Unknown column 'created_at' in 'field list'
+ERROR - 2022-06-12 22:07:49 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2022-06-12 22:09:05 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\msg.php on line 5.
+ 1 APPPATH\Views\msg.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Views\\msg.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\msg.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('msg', [], true)
+ 5 APPPATH\Controllers\Alunos.php(80): view('msg', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Alunos->store()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 22:09:18 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\msg.php on line 5.
+ 1 APPPATH\Views\msg.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'APPPATH\\Views\\msg.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\msg.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('msg', [], true)
+ 5 APPPATH\Controllers\Alunos.php(80): view('msg', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Alunos->store()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 22:13:38 --> Invalid file: msg.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('msg.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('msg', [], true)
+ 3 APPPATH\Controllers\Alunos.php(80): view('msg', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Alunos->store()
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 23:04:44 --> Undefined constant "App\Controllers\jpg"
+in APPPATH\Controllers\Alunos.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Alunos->store()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 23:07:16 --> unlink(imagens/): Is a directory
+in APPPATH\Controllers\Alunos.php on line 44.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(imagens/): Is a directory', 'APPPATH\\Controllers\\Alunos.php', 44)
+ 2 APPPATH\Controllers\Alunos.php(44): unlink('FCPATH\\imagens')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Alunos->delete('16')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 23:16:13 --> unlink(): Argument #2 ($context) must be of type resource or null, string given
+in APPPATH\Controllers\Alunos.php on line 82.
+ 1 APPPATH\Controllers\Alunos.php(82): unlink('FCPATH\\imagens', '1655093773_a64e84c5424707b08f8e.jpg')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Alunos->store()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 23:17:03 --> unlink(): Argument #2 ($context) must be of type resource or null, string given
+in APPPATH\Controllers\Alunos.php on line 82.
+ 1 APPPATH\Controllers\Alunos.php(82): unlink('FCPATH\\imagens', '1655093823_0218705e3be70f337e2d.jpg')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Alunos->store()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-12 23:19:26 --> unlink(imagens/): Is a directory
+in APPPATH\Controllers\Alunos.php on line 44.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(imagens/): Is a directory', 'APPPATH\\Controllers\\Alunos.php', 44)
+ 2 APPPATH\Controllers\Alunos.php(44): unlink('FCPATH\\imagens')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Alunos->delete('17')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

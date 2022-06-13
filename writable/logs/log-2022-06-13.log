@@ -1,0 +1,195 @@
+CRITICAL - 2022-06-13 00:17:39 --> Invalid file: aluneditar.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('aluneditar.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('aluneditar', [], true)
+ 3 APPPATH\Controllers\Alunos.php(111): view('aluneditar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Alunos->edit('14')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-13 00:20:13 --> Invalid file: aluneditar.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('aluneditar.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('aluneditar', [], true)
+ 3 APPPATH\Controllers\Alunos.php(111): view('aluneditar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Alunos->edit('19')
+ 5 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-13 01:53:27 --> Undefined variable $data
+in APPPATH\Controllers\Alunos.php on line 128.
+ 1 APPPATH\Controllers\Alunos.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Alunos.php', 128)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Alunos->update()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-13 01:53:47 --> Undefined variable $data
+in APPPATH\Controllers\Alunos.php on line 128.
+ 1 APPPATH\Controllers\Alunos.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Alunos.php', 128)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Alunos->update()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-13 01:54:03 --> Undefined array key "fotopathold"
+in APPPATH\Controllers\Alunos.php on line 129.
+ 1 APPPATH\Controllers\Alunos.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fotopathold"', 'APPPATH\\Controllers\\Alunos.php', 129)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Alunos->update()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-13 01:56:48 --> unlink(imagens/1655103243_d1e516e298e14e4efcf1.jpg): No such file or directory
+in APPPATH\Controllers\Alunos.php on line 37.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(imagens/1655103243_d1e516e298e14e4efcf1.jpg): No such file or directory', 'APPPATH\\Controllers\\Alunos.php', 37)
+ 2 APPPATH\Controllers\Alunos.php(37): unlink('imagens/1655103243_d1e516e298e14e4efcf1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Alunos->delete('21')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-13 02:00:48 --> Undefined array key "fotopathold"
+in APPPATH\Controllers\Alunos.php on line 129.
+ 1 APPPATH\Controllers\Alunos.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fotopathold"', 'APPPATH\\Controllers\\Alunos.php', 129)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Alunos->update()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-13 02:03:53 --> unlink(): Argument #2 ($context) must be of type resource or null, string given
+in APPPATH\Controllers\Alunos.php on line 130.
+ 1 APPPATH\Controllers\Alunos.php(130): unlink('FCPATH\\imagens', '1655103648_f9f0913a69b9c0c04fb0.jpg')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Alunos->update()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-13 02:12:33 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Alunos.php on line 105.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Alunos->update()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-13 02:13:56 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Alunos.php on line 105.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Alunos->update()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-13 02:17:38 --> Undefined property: App\Controllers\Alunos::$alunoModel
+in APPPATH\Controllers\Alunos.php on line 118.
+ 1 APPPATH\Controllers\Alunos.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Alunos::$alunoModel', 'APPPATH\\Controllers\\Alunos.php', 118)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Alunos->update()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-13 02:18:24 --> unlink(): Argument #2 ($context) must be of type resource or null, string given
+in APPPATH\Controllers\Alunos.php on line 127.
+ 1 APPPATH\Controllers\Alunos.php(127): unlink('FCPATH\\imagens', '1655104496_579a10c1471bf8929db7.jpg')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Alunos->update()
+ 3 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-13 02:48:02 --> Trying to access array offset on value of type null
+in APPPATH\Views\alunover.php on line 7.
+ 1 APPPATH\Views\alunover.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\alunover.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\alunover.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('alunover', [], true)
+ 5 APPPATH\Controllers\Alunos.php(31): view('alunover', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Alunos->pesquisaNome()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-13 02:49:49 --> Trying to access array offset on value of type null
+in APPPATH\Views\alunover.php on line 7.
+ 1 APPPATH\Views\alunover.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\alunover.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\alunover.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('alunover', [], true)
+ 5 APPPATH\Controllers\Alunos.php(31): view('alunover', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Alunos->pesquisaNome()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-13 03:01:52 --> Class "App\Controllers\Config\Services" not found
+in APPPATH\Controllers\Alunos.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Alunos->store()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-13 03:03:20 --> Class "App\Controllers\Config\Services" not found
+in APPPATH\Controllers\Alunos.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Alunos->store()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-13 03:14:59 --> The framework needs the following extension(s) installed and loaded: GD.
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 54.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('GD')
+ 2 SYSTEMPATH\Config\Services.php(334): CodeIgniter\Images\Handlers\GDHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::image('gd', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(192): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(327): CodeIgniter\Config\BaseService::getSharedInstance('image', null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::image()
+ 7 APPPATH\Controllers\Alunos.php(48): CodeIgniter\Config\BaseService::__callStatic('image', [])
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Alunos->store()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-13 03:17:06 --> The framework needs the following extension(s) installed and loaded: GD.
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 54.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('GD')
+ 2 SYSTEMPATH\Config\Services.php(334): CodeIgniter\Images\Handlers\GDHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::image('gd', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(192): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(327): CodeIgniter\Config\BaseService::getSharedInstance('image', null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\Services::image()
+ 7 APPPATH\Controllers\Alunos.php(48): CodeIgniter\Config\BaseService::__callStatic('image', [])
+ 8 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Alunos->store()
+ 9 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-13 03:34:44 --> unlink(imagens/..imagens1.jpg): No such file or directory
+in APPPATH\Controllers\Alunos.php on line 32.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(imagens/..imagens1.jpg): No such file or directory', 'APPPATH\\Controllers\\Alunos.php', 32)
+ 2 APPPATH\Controllers\Alunos.php(32): unlink('imagens/..imagens1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Alunos->delete('1')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-13 03:34:50 --> unlink(imagens/..imagens2.jpg): No such file or directory
+in APPPATH\Controllers\Alunos.php on line 32.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(imagens/..imagens2.jpg): No such file or directory', 'APPPATH\\Controllers\\Alunos.php', 32)
+ 2 APPPATH\Controllers\Alunos.php(32): unlink('imagens/..imagens2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Alunos->delete('2')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-13 03:34:51 --> unlink(imagens/..imagens3.jpg): No such file or directory
+in APPPATH\Controllers\Alunos.php on line 32.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(imagens/..imagens3.jpg): No such file or directory', 'APPPATH\\Controllers\\Alunos.php', 32)
+ 2 APPPATH\Controllers\Alunos.php(32): unlink('imagens/..imagens3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Alunos->delete('3')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-13 03:34:53 --> unlink(imagens/..imagens4.jpg): No such file or directory
+in APPPATH\Controllers\Alunos.php on line 32.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(imagens/..imagens4.jpg): No such file or directory', 'APPPATH\\Controllers\\Alunos.php', 32)
+ 2 APPPATH\Controllers\Alunos.php(32): unlink('imagens/..imagens4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Alunos->delete('4')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-13 03:34:55 --> unlink(imagens/..imagens5.jpg): No such file or directory
+in APPPATH\Controllers\Alunos.php on line 32.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(imagens/..imagens5.jpg): No such file or directory', 'APPPATH\\Controllers\\Alunos.php', 32)
+ 2 APPPATH\Controllers\Alunos.php(32): unlink('imagens/..imagens5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Alunos->delete('5')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-13 03:34:57 --> unlink(imagens/..imagens6.jpg): No such file or directory
+in APPPATH\Controllers\Alunos.php on line 32.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(imagens/..imagens6.jpg): No such file or directory', 'APPPATH\\Controllers\\Alunos.php', 32)
+ 2 APPPATH\Controllers\Alunos.php(32): unlink('imagens/..imagens6.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Alunos->delete('6')
+ 4 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alunos))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
