@@ -12,12 +12,11 @@ CREATE TABLE Alunos (
 ENGINE = InnoDB;
 
 
-INSERT INTO Alunos(nome, endereco, fotopath) VALUES ('John Romero', 'Rua: Ocean Blvd, 1535 E, Long Beach, CA, EUA', '..\imagens\1.jpg');
-INSERT INTO Alunos(nome, endereco, fotopath) VALUES ('Hideo Kojima', 'Rua Nishigahara, 28, Tokyo, Japão', '..\imagens\2.jpg');
-INSERT INTO Alunos(nome, endereco, fotopath) VALUES ('Cliff Blezinski', 'Rua: Main, 2033, San Diego, CA, EUA', '..\imagens\3.jpg');
-INSERT INTO Alunos(nome, endereco, fotopath) VALUES ('John Carmack', 'Av Serene, 1544, Las Vegas, NV, EUA', '..\imagens\4.jpg');
-INSERT INTO Alunos(nome, endereco, fotopath) VALUES ('Ed Boom', 'Av 14th, 4160, Sacramento, CA, EUA', '..\imagens\5.jpg');
-INSERT INTO Alunos(nome, endereco, fotopath) VALUES ('Gabe Newell', 'Rua Castro, 650, San Francisco, CA, EUA', '..\imagens\6.jpg');
+INSERT INTO Alunos(nome, endereco, fotopath) VALUES ('John Romero', 'Rua: Ocean Blvd, 1535 E, Long Beach, CA, EUA', '1655109080_edc95e5c335f08b9bc91.jpg');
+INSERT INTO Alunos(nome, endereco, fotopath) VALUES ('Cliff Blezinski', 'Rua: Main, 2033, San Diego, CA, EUA', '1655109408_be1e0b67c75f83cdfc20.jpg');
+INSERT INTO Alunos(nome, endereco, fotopath) VALUES ('John Carmack', 'Av Serene, 1544, Las Vegas, NV, EUA', '1655109120_95a5517c2679df7b36b3.jpg');
+INSERT INTO Alunos(nome, endereco, fotopath) VALUES ('Ed Boom', 'Av 14th, 4160, Sacramento, CA, EUA', '1655109150_573733be6a33f8bfc372.jpg');
+INSERT INTO Alunos(nome, endereco, fotopath) VALUES ('Gabe Newell', 'Rua Castro, 650, San Francisco, CA, EUA', '1655109259_c85a6ba2883b15c143e3.jpg');
 
 
 --CREATE USER 'adminalunos'@'localhost' IDENTIFIED BY 'x1y2z3';
