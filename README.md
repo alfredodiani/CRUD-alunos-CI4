@@ -36,7 +36,7 @@ Como maneira de facilitar, o app está configurado para utilização do MySQL co
 root
 sem password
 
-##Utilização
+## Utilização
 
 Existe um menu na parte superior do website com as opções para Inserção de novo Aluno e para Listagem de todos alunos cadastrados.
 As opções para editar, apagar e vizualizar aparecerão na listagem dos alunos.
