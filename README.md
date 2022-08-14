@@ -2,8 +2,6 @@
 
 ## Projeto
 
-Este projeto foi feito como parte do processo seletivo para a organização Delta Global.
-
 A ideia é fazer um CRUD de aluno utilizando MVC, contendo nome, endereço e uma foto jpg.
 
 Para o desenvolvimento deste projeto foi utilizado o XAMPP para montar o servidor Apache e MySQL
