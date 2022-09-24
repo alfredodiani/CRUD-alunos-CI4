@@ -38,6 +38,8 @@ Abra o web browser e digite:
 localhost:8080
 ```
 
+A pasta public/imagens precisa ter permissão 777 para salvar os arquivos de imagem de perfil dos alunos.
+
 Como maneira de facilitar, o app está configurado para utilização do MySQL com as credenciais
 ```
 root
