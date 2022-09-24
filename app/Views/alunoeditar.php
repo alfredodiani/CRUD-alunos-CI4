@@ -9,15 +9,15 @@
                 <p>Foto atual</p>
                 <img src="<?=base_url()?>/imagens/<?= $aluno['fotopath'] ?>" alt="Avatar Logo" style="width:200px;" class="rounded-circle" name="foto"> 
             </div>
-            <div class="mb-3">
+            <div class="mb-3" style="max-width:500px">
                 <label for="fotopath" class="form-label">Carregar nova foto</label>
-                <input type="file" class="form-control" id="fotopath" name="fotopath">
+                <input type="file" class="form-control" id="fotopath" name="fotopath" accept="image/png,image/jpeg">
             </div>
-            <div class="mb-3">
+            <div class="mb-3" style="max-width:500px">
                 <label for="nome" class="form-label">Nome</label>
                 <input class="form-control" type="text" id="nome" value="<?= $aluno['nome'] ?>" name="nome">
             </div>
-            <div class="mb-3">
+            <div class="mb-3" style="max-width:500px">
                 <label for="endereco" class="form-label">Endereço</label>
                 <input class="form-control" type="text" id="endereco" value="<?= $aluno['endereco'] ?>" name="endereco">
             </div>

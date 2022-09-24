@@ -26,6 +26,7 @@ $routes->set404Override();
 // If you don't want to define all routes, please use the Auto Routing (Improved).
 // Set `$autoRoutesImproved` to true in `app/Config/Feature.php` and set the following to true.
 //$routes->setAutoRoute(false);
+//$routes->setAutoRoute(true);
 
 /*
  * --------------------------------------------------------------------
@@ -45,6 +46,7 @@ $routes->get('/alunocriar', 'Alunos::create');
 $routes->post('/alunosalvar', 'Alunos::store');
 $routes->get('/alunoeditar/(:num)', 'Alunos::edit/$1');
 $routes->post('/alunoatualizar', 'Alunos::update');
+//$routes->get('/alunodelete/(:num)', 'Alunos::deactivated'); //exemplo de como desativar uma funcionalidade
 
 /*
  * --------------------------------------------------------------------

@@ -3,9 +3,12 @@
 <div class='container mt-5' >
     <h2>Bem vindo!</h2>
     <br>
-    <p>A ideia deste site é fazer um CRUD de aluno contendo nome, endereço e uma foto jpg.</p>
-    <p>Utilizando PHP, CodeIgniter e MySQL</p>
     <br>
-    <p>Dev: Alfredo Beneti Diani</p>
+    <p>Este site é um exemplo de CRUD básico com arquitetura MVC.</p>
+    <p>A entidade é um aluno que contem nome, endereço e uma foto jpg.</p>
+    <br>
+    <p>A implementação foi foeita utilizando PHP 8, framework CodeIgniter 4.2 e MySQL 8</p>
+    <br>
+    <p>Dev: Alfredo Diani</p>
 </div>
 <?= $this->endSection() ?>

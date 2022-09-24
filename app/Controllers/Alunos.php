@@ -132,4 +132,8 @@ class Alunos extends BaseController
         }
         
     }
+
+    public function deactivated() {                                                  //mostra pagina desativada
+        return view('desativado', []);
+    }
 }

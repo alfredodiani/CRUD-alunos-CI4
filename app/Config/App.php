@@ -24,7 +24,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'http://localhost:8080/';
+    public $baseURL = 'http://ec2-3-87-58-19.compute-1.amazonaws.com/alunosci4/public/';
 
     /**
      * --------------------------------------------------------------------------
