@@ -3,19 +3,12 @@
 <div class='container mt-5' >
     <h2>Bem vindo!</h2>
     <br>
-    <p>Este site foi feito como trabalho da disciplina Computação em Nuvem.</p>
-    <p>Ministrada pelo Prof. Neumar Malheiros.</p>
     <br>
-    <p>Para a hospedagem web foi utilizada uma instância AWS EC2 configurada manualmente</p>
-    <p>Utilizando Ubuntu Server, Apache http Server, PHP, DNS CloudFlare e Dominio Freenom</p>
+    <p>Este site é um exemplo de CRUD básico com arquitetura MVC.</p>
+    <p>A entidade é um aluno que contem nome, endereço e uma foto jpg.</p>
     <br>
-    <p>Para o banco de dados foi utilizada uma instância AWS RDS MySQL</p>
+    <p>A implementação foi foeita utilizando PHP 8, framework CodeIgniter 4.2 e MySQL 8</p>
     <br>
-    <p><strong>Aluno: Alfredo Beneti Diani</strong></p>
-    <p><strong>Aluno: Bruno Carlos de Mesquita Naves</strong></p>
-    <br>
-    <p>Curso: Sistemas de Informação</p>
-    <p>Departamento de Ciência da Computação</p>
-    <p>UFLA - Universidade Federal de Lavras</p>
+    <p>Dev: Alfredo Diani</p>
 </div>
 <?= $this->endSection() ?>

@@ -41,12 +41,12 @@ $routes->get('/', 'Home::index');
 $routes->get('/home', 'Home::index');
 $routes->get('/alunos', 'Alunos::index');
 $routes->get('/alunover/(:num)', 'Alunos::show/$1');
-//$routes->get('/alunodelete/(:num)', 'Alunos::delete/$1' );
+$routes->get('/alunodelete/(:num)', 'Alunos::delete/$1' );
 $routes->get('/alunocriar', 'Alunos::create');
 $routes->post('/alunosalvar', 'Alunos::store');
 $routes->get('/alunoeditar/(:num)', 'Alunos::edit/$1');
 $routes->post('/alunoatualizar', 'Alunos::update');
-$routes->get('/alunodelete/(:num)', 'Alunos::deactivated');
+//$routes->get('/alunodelete/(:num)', 'Alunos::deactivated'); //exemplo de como desativar uma funcionalidade
 
 /*
  * --------------------------------------------------------------------
