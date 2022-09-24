@@ -1,0 +1,18 @@
+CRITICAL - 2022-08-20 23:10:43 --> The supplied file is not a supported image type.
+in SYSTEMPATH/Images/Image.php on line 103.
+ 1 SYSTEMPATH/Images/Image.php(103): CodeIgniter\Images\Exceptions\ImageException::forFileNotSupported()
+ 2 SYSTEMPATH/Images/Handlers/BaseHandler.php(150): CodeIgniter\Images\Image->getProperties()
+ 3 APPPATH/Controllers/Alunos.php(52): CodeIgniter\Images\Handlers\BaseHandler->withFile()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Alunos->store()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-20 23:10:48 --> The supplied file is not a supported image type.
+in SYSTEMPATH/Images/Image.php on line 103.
+ 1 SYSTEMPATH/Images/Image.php(103): CodeIgniter\Images\Exceptions\ImageException::forFileNotSupported()
+ 2 SYSTEMPATH/Images/Handlers/BaseHandler.php(150): CodeIgniter\Images\Image->getProperties()
+ 3 APPPATH/Controllers/Alunos.php(52): CodeIgniter\Images\Handlers\BaseHandler->withFile()
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\Alunos->store()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()

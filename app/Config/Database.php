@@ -32,9 +32,9 @@ class Database extends Config
      */
     public $default = [
         'DSN'      => '',
-        'hostname' => 'localhost',
-        'username' => 'adminalunos',
-        'password' => 'x1y2z3',
+        'hostname' => 'alunosci4.czt8xmuk11uc.us-east-1.rds.amazonaws.com',
+        'username' => 'admin',
+        'password' => 'w1#x2y3z4',
         'database' => 'alunosci4',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
